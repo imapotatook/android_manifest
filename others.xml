@@ -3,6 +3,13 @@
 
   <!-- External -->
   <!-- LineageOS -->
+
+  <project path="device/google/atv" name="android_device_google_atv" remote="lineage" groups="device,broadcom_pdk,generic_fs,pdk" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="lineage" groups="pdk" />
+  <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="lineage" />
+  <project path="system/core" name="android_system_core" remote="lineage" groups="pdk" />
+  <project path="lineage-sdk" name="android_lineage-sdk" remote="lineage" />
+
   <project path="external/android-nn-driver" name="android_external_android-nn-driver" remote="lineage" />
   <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="lineage" />
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="lineage" />
@@ -10,6 +17,7 @@
   <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="lineage" />
   <project path="external/armnn" name="android_external_armnn" remote="lineage" />
   <project path="external/calyx/chromium" name="CalyxOS/platform_external_calyx_chromium" remote="gitlab" revision="android13" clone-depth="1" />
+  <project path="external/dwarves" name="platform/external/dwarves" remote="aosp" revision="3c8f7e8b2cf7ff902b71c42d00fda30f30114b07" />
   <project path="external/chromium-webview/patches" name="android_external_chromium-webview_patches" remote="lineage" revision="main" >
     <linkfile src="Android.mk" dest="external/chromium-webview/Android.mk" />
     <linkfile src="CleanSpec.mk" dest="external/chromium-webview/CleanSpec.mk" />
@@ -40,7 +48,7 @@
   <project path="external/themelib" name="crdroidandroid/android_external_themelib" remote="github" revision="13.0" />
 
   <!-- Hardware -->
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="lineage" />
+  <!-- <project path="hardware/libhardware" name="android_hardware_libhardware" remote="lineage" /> -->
   <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="lineage" />
   <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="lineage" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="lineage" />
@@ -53,6 +61,11 @@
   <project path="hardware/qcom/sdm845/media" name="android_hardware_qcom_sdm845_media" remote="lineage" />
   <project path="hardware/qcom/sm7250/display" name="android_hardware_qcom_sm7250_display" remote="lineage" />
   <project path="hardware/qcom/sm7250/media" name="android_hardware_qcom_sm7250_media" remote="lineage" />
+  <project path="hardware/google/pixel" name="android_hardware_google_pixel" remote="lineage" groups="generic_fs,pixel" />
+  <project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" remote="lineage" groups="generic_fs,pixel" />
+  <project path="hardware/google/gchips" name="android_hardware_google_gchips" remote="lineage" groups="pdk-lassen,pdk-gs-arm" />
+  <project path="hardware/google/graphics/common" name="android_hardware_google_graphics_common" remote="lineage" groups="pdk-lassen,pdk-gs-arm" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="lineage" groups="pdk" />
   <project path="hardware/qcom/sm8150/data/ipacfg-mgr" name="android_hardware_qcom_sm8150_data_ipacfg-mgr" remote="lineage" >
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom/sm8150/Android.bp" />

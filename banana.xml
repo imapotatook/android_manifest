@@ -86,8 +86,8 @@
   <project path="frameworks/proto_logging" name="android_frameworks_proto_logging" remote="banana" />
 
   <!-- Hardware -->
-  <project path="hardware/banana/interfaces" name="android_hardware_banana_interfaces" remote="banana" />
-  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="banana" />
+  <!--<project path="hardware/banana/interfaces" name="android_hardware_banana_interfaces" remote="banana" /> -->
+  <!-- <project path="hardware/interfaces" name="android_hardware_interfaces" remote="banana" /> -->
   <project path="hardware/samsung" name="android_hardware_samsung" remote="banana" />
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="banana" />
 
@@ -137,7 +137,7 @@
 
   <!-- System -->
   <project path="system/apex" name="android_system_apex" remote="banana" />
-  <project path="system/core" name="android_system_core" remote="banana" />
+  <!--<project path="system/core" name="android_system_core" remote="banana" /> -->
   <project path="system/extras" name="android_system_extras" remote="banana" />
   <project path="system/linkerconfig" name="android_system_linkerconfig" remote="banana" />
   <project path="system/logging" name="android_system_logging" remote="banana" />
