@@ -137,7 +137,7 @@
 
   <!-- System -->
   <project path="system/apex" name="android_system_apex" remote="banana" />
-  <!--<project path="system/core" name="android_system_core" remote="banana" /> -->
+  <project path="system/core" name="android_system_core" remote="banana" />
   <project path="system/extras" name="android_system_extras" remote="banana" />
   <project path="system/linkerconfig" name="android_system_linkerconfig" remote="banana" />
   <project path="system/logging" name="android_system_logging" remote="banana" />
